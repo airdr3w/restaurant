@@ -4,56 +4,95 @@
 
 /* navbar */
 .navbar{
-    background: crimson;
+    background: green;
     font-family: calibri; 
     padding-right: 15px;
     padding-left: 15px;
     top: 0;
     position: sticky;
 }
+
 .navdiv{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .logo a{
     font-size: 35px;
     font-weight: 600; 
     color: white;
 }
+
 li{
     list-style: none; 
     display: inline-block;
+    height: 35px;
+    padding-left: 30px;
+    padding-top: 10px;
 }
+
+li:hover {
+    background-color: darkslategray;
+}
+
+
 li a{
     color: white; 
-    font-size: 18px; 
+    font-size: 20px; 
     font-weight: bold; 
-    margin-right: 25px;
+    margin-right: 30px;
 }
+
 button{
     background-color: black; 
     margin-left: 10px;
     border-radius: 10px; 
-    padding: 10px; width: 90px;
+    padding: 10px; 
+    width: 90px;
 }
+
 button a{
     color: white; 
     font-weight: bold; 
     font-size: 15px;
 }
 
-/* section/text */
+/* sections/text */
 section {
     margin: 20px;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 
-section h1 {
-    font-size: 50px;
+.page_header {
+    top: auto;
+    height: 175px;
+    width: 100%;
+    background-image: linear-gradient( mediumseagreen, darkseagreen);
+    text-align: "center";
+    margin-bottom: 75px;
+    border-radius: 10px;
+}
+
+.page_header h1 {
+    font-size: 75px;
+    font-family: calibri;
+    color: darkslategray;
+    text-align: center;
+    line-height: 170px;
+}
+
+section h2 {
+    font-size: 40px;
+    font-family: calibri;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 section p {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: -15px;
+    font-family: calibri;
 }
