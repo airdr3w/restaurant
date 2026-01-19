@@ -1,1 +1,31 @@
+/* navbar */
+nav {
+    display: flex;
+    background-color: lightblue;
+    justify-content: right;
+    top: 0;
+}
 
+ul {
+    margin-right: 10px;
+    height: 100%;
+}
+
+li {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li:hover {
+    background-color: slategray;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
